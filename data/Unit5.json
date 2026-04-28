@@ -1,0 +1,252 @@
+[
+    {
+        "q": "What is control memory?",
+        "options": [
+            "Stores user data",
+            "Stores microprogram",
+            "Stores cache",
+            "Stores I/O"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Microprogrammed control unit generates signals using:",
+        "options": [
+            "Logic gates",
+            "Microinstructions",
+            "Registers",
+            "Cache"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Hardwired control unit is:",
+        "options": [
+            "Slower",
+            "Faster",
+            "Same speed",
+            "Unpredictable"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Microprogrammed control unit is easier to:",
+        "options": [
+            "Design hardware",
+            "Modify",
+            "Execute faster",
+            "Reduce memory"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Control memory is usually implemented using:",
+        "options": [
+            "RAM",
+            "ROM",
+            "Cache",
+            "Register"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "A microinstruction specifies:",
+        "options": [
+            "Program",
+            "Microoperations",
+            "Instructions",
+            "Cache"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "A sequence of microinstructions is called:",
+        "options": [
+            "Program",
+            "Microprogram",
+            "Instruction",
+            "Cycle"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Control Address Register (CAR) stores:",
+        "options": [
+            "Data",
+            "Instruction",
+            "Address of microinstruction",
+            "Opcode"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Control Data Register (CDR) stores:",
+        "options": [
+            "Address",
+            "Instruction",
+            "Control word",
+            "Data"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Microprogram sequencer is used for:",
+        "options": [
+            "ALU operation",
+            "Address generation",
+            "Memory storage",
+            "I/O"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which is NOT a function of sequencer?",
+        "options": [
+            "Increment CAR",
+            "Load address",
+            "ALU operation",
+            "Branch"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Address sequencing includes:",
+        "options": [
+            "Only increment",
+            "Only branch",
+            "Multiple methods",
+            "No method"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Conditional branching depends on:",
+        "options": [
+            "Instruction",
+            "Status bits",
+            "Memory",
+            "Registers"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Mapping converts:",
+        "options": [
+            "Data to instruction",
+            "Opcode to address",
+            "Address to data",
+            "Instruction to ALU"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Control memory size in example is:",
+        "options": [
+            "64",
+            "128",
+            "256",
+            "512"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Number of bits for CAR in example:",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Main memory size given is:",
+        "options": [
+            "1024",
+            "2048",
+            "4096",
+            "512"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Program Counter (PC) size is:",
+        "options": [
+            "7 bits",
+            "11 bits",
+            "16 bits",
+            "20 bits"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Microinstruction format contains how many parts?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "F1, F2, F3 fields represent:",
+        "options": [
+            "Addresses",
+            "Microoperations",
+            "Data",
+            "Control bits"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Maximum microoperations in one microinstruction:",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "CD field specifies:",
+        "options": [
+            "Address",
+            "Condition",
+            "Branch",
+            "Opcode"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "BR field is used for:",
+        "options": [
+            "Microoperation",
+            "Branch control",
+            "Data transfer",
+            "ALU"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "BR = 01 indicates:",
+        "options": [
+            "Jump",
+            "Call",
+            "Return",
+            "Map"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "AD field contains:",
+        "options": [
+            "Opcode",
+            "Address",
+            "Data",
+            "Condition"
+        ],
+        "answer": 1
+    }
+]

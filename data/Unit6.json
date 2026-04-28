@@ -1,0 +1,152 @@
+[
+    {
+        "q": "The part of the CPU that stores intermediate data during instruction execution is the:",
+        "options": [
+            "Arithmetic Logic Unit",
+            "Control Unit",
+            "Register Set",
+            "Program Counter"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In General Register Organization, which component is used to select the destination register?",
+        "options": [
+            "Multiplexer A",
+            "Multiplexer B",
+            "3x8 Decoder",
+            "ALU"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "How many bits are required for the OPR field in the control word described in the source?",
+        "options": [
+            "3 bits",
+            "4 bits",
+            "5 bits",
+            "14 bits"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Which stack operation involves incrementing the Stack Pointer (SP) and then writing to memory?",
+        "options": [
+            "Register Stack PUSH",
+            "Memory Stack PUSH",
+            "Register Stack POP",
+            "Memory Stack POP"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "In a memory stack, if the initial SP is 4001 and the stack grows with decreasing addresses, where is the first item stored?",
+        "options": [
+            "4001",
+            "4002",
+            "4000",
+            "3999"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "What is the Reverse Polish Notation (RPN) for the expression (A*B) + (C*D)?",
+        "options": [
+            "+ * AB * CD",
+            "AB*CD*+",
+            "AB+CD**",
+            "A*B+C*D"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which instruction format uses an implied accumulator (AC) for all data manipulation?",
+        "options": [
+            "Three-address instruction",
+            "Two-address instruction",
+            "One-address instruction",
+            "Zero-address instruction"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Zero-address instructions are typically used in which type of CPU organization?",
+        "options": [
+            "General Register Organization",
+            "Single Accumulator Organization",
+            "Stack Organization",
+            "Pipeline Organization"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In which addressing mode is the operand specified in the instruction itself?",
+        "options": [
+            "Implied Mode",
+            "Immediate Mode",
+            "Direct Mode",
+            "Register Mode"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "The addressing mode where EA = PC + A is known as:",
+        "options": [
+            "Indexed Addressing",
+            "Base Register Addressing",
+            "Relative Addressing",
+            "Indirect Addressing"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In Auto-decrement mode, the register is:",
+        "options": [
+            "Decremented after its value is used",
+            "Decremented before its value is used",
+            "Incremented after its value is used",
+            "Incremented before its value is used"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which status bit is set to 1 if the output of the ALU contains all 0's?",
+        "options": [
+            "C (Carry)",
+            "S (Sign)",
+            "Z (Zero)",
+            "V (Overflow)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "An internal interrupt is also referred to as a:",
+        "options": [
+            "Vector",
+            "Trap",
+            "Asynchronous event",
+            "Hardware trigger"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which of the following is a characteristic of RISC architecture?",
+        "options": [
+            "Large number of addressing modes",
+            "Variable-length instruction formats",
+            "Single-cycle instruction execution",
+            "Microprogrammed control"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "CISC architecture aims to reduce the program size by:",
+        "options": [
+            "Using a limited number of instructions",
+            "Using hardwired control",
+            "Using specialized instructions and many addressing modes",
+            "Requiring more register sets"
+        ],
+        "answer": 2
+    }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "q": "What is the main function of a computer?",
+        "options": [
+            "Cooking",
+            "Processing data",
+            "Driving",
+            "Sleeping"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which unit performs arithmetic and logical operations?",
+        "options": [
+            "Control Unit",
+            "ALU",
+            "Memory Unit",
+            "Input Unit"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Von Neumann architecture is based on:",
+        "options": [
+            "Separate memory",
+            "Stored program concept",
+            "Parallel computing",
+            "No CPU"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which component controls execution of instructions?",
+        "options": [
+            "ALU",
+            "Memory",
+            "Control Unit",
+            "Register"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Clock speed is measured in:",
+        "options": [
+            "Bytes",
+            "Hertz",
+            "Bits",
+            "Seconds"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "CPI stands for:",
+        "options": [
+            "Cycles Per Instruction",
+            "Cost Per Instruction",
+            "Control Program Index",
+            "Central Process Input"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "MIPS measures:",
+        "options": [
+            "Memory size",
+            "Execution time",
+            "Instruction speed",
+            "Cache size"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "1’s complement is obtained by:",
+        "options": [
+            "Adding 1",
+            "Subtracting 1",
+            "Flipping bits",
+            "Dividing"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "2’s complement is equal to:",
+        "options": [
+            "1’s complement + 1",
+            "Original number",
+            "Subtract 1",
+            "Multiply by 2"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "9’s complement of 2457 is:",
+        "options": [
+            "7542",
+            "2457",
+            "9999",
+            "6542"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "10’s complement is calculated using:",
+        "options": [
+            "r^n - N",
+            "(r^n -1) - N",
+            "N+1",
+            "N-1"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "Subtraction using complement converts operation into:",
+        "options": [
+            "Multiplication",
+            "Division",
+            "Addition",
+            "Shift"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Signed magnitude uses:",
+        "options": [
+            "Only magnitude",
+            "Only sign",
+            "Sign + magnitude",
+            "Exponent"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In signed numbers, sign bit 1 represents:",
+        "options": [
+            "Positive",
+            "Negative",
+            "Zero",
+            "Infinity"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Floating point is used to represent:",
+        "options": [
+            "Only integers",
+            "Very small and large numbers",
+            "Characters",
+            "Images"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Floating point consists of:",
+        "options": [
+            "Only mantissa",
+            "Only exponent",
+            "Mantissa and exponent",
+            "Sign only"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Mantissa represents:",
+        "options": [
+            "Position",
+            "Value",
+            "Sign",
+            "Memory"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Exponent represents:",
+        "options": [
+            "Decimal position",
+            "Sign",
+            "Magnitude",
+            "Instruction"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "Parity bit is used for:",
+        "options": [
+            "Correction",
+            "Detection",
+            "Storage",
+            "Compression"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Even parity ensures:",
+        "options": [
+            "Odd number of 1s",
+            "Even number of 1s",
+            "Zero 1s",
+            "All 1s"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Checksum is used in:",
+        "options": [
+            "CPU",
+            "File transfer",
+            "Keyboard",
+            "Cache"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "CRC is used for:",
+        "options": [
+            "Memory allocation",
+            "Error detection",
+            "Arithmetic",
+            "Storage"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Hamming code is used for:",
+        "options": [
+            "Detection only",
+            "Correction",
+            "Storage",
+            "Execution"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "ECC memory is used for:",
+        "options": [
+            "Fast access",
+            "Error correction",
+            "Storage only",
+            "I/O"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "FEC allows:",
+        "options": [
+            "Retransmission",
+            "No correction",
+            "Correction without retransmission",
+            "Deletion"
+        ],
+        "answer": 2
+    }
+]

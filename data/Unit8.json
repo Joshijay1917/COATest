@@ -1,0 +1,152 @@
+[
+    {
+        "q": "What are peripheral devices in a computer system?",
+        "options": [
+            "Internal CPU registers",
+            "I/O devices attached to the computer",
+            "Operating system software",
+            "Main memory modules"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Why can the CPU and I/O devices not communicate directly?",
+        "options": [
+            "They use the same data transfer rates",
+            "They share the same unit of information",
+            "Data transfer rates and information units differ between them",
+            "They use the same instruction code formats"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Which component of an I/O interface enables a device to recognize its unique address?",
+        "options": [
+            "Control Circuits",
+            "Data Register",
+            "Status Register",
+            "Address Decoder"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "Which type of I/O command is used to test for conditions like 'busy' or 'error' in a peripheral?",
+        "options": [
+            "Control Command",
+            "Status Command",
+            "Data Output Command",
+            "Data Input Command"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Compared to serial transmission, parallel transmission is typically:",
+        "options": [
+            "Slower and requires fewer lines",
+            "Faster and requires more lines",
+            "Cheaper for long-distance communication",
+            "Limited to transmitting one bit at a time"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "In synchronous data transfer, how do the sender and receiver coordinate?",
+        "options": [
+            "They use private/separate clocks",
+            "They share a common clock signal",
+            "They use handshaking control signals",
+            "They communicate through a strobe method"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "What is the primary disadvantage of the strobe method in asynchronous data transfer?",
+        "options": [
+            "It requires too many control lines",
+            "The units share a common clock",
+            "The initiator has no way of knowing if data was actually received or placed",
+            "It is only used for parallel transmission"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Which asynchronous method uses a second control signal (Data Accepted) to provide a reply to the initiator?",
+        "options": [
+            "Source-initiated strobe",
+            "Destination-initiated strobe",
+            "Handshaking method",
+            "Serial synchronous transfer"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In Programmed I/O, what happens if the I/O device is busy when the CPU initiates a transfer?",
+        "options": [
+            "The CPU enters an idle state for other tasks",
+            "The CPU stays in a program loop/waiting mode",
+            "The CPU generates an interrupt",
+            "The DMA controller takes over the bus"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "How does Interrupt-Initiated I/O improve upon Programmed I/O?",
+        "options": [
+            "It gives the I/O device direct access to memory",
+            "The CPU can execute another program while the interface monitors the device",
+            "It removes the need for an interface unit",
+            "It synchronizes the CPU and I/O with a common clock"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which technique allows I/O devices direct access to main memory while the CPU is temporarily disabled?",
+        "options": [
+            "Programmed I/O",
+            "Daisy-Chaining",
+            "Direct Memory Access (DMA)",
+            "Polling"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "What state does the CPU enter when the Bus Grant (BG) signal is enabled during a DMA transfer?",
+        "options": [
+            "High-priority interrupt state",
+            "High-impedance (disconnected) state",
+            "Instruction fetch state",
+            "Vector address state"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "In a Priority Interrupt system, which device is typically given the highest priority?",
+        "options": [
+            "Keyboard",
+            "Slow serial printer",
+            "High-speed magnetic disk",
+            "Mouse"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "How does the Daisy-Chaining method establish priority?",
+        "options": [
+            "By software polling of every device",
+            "By a serial hardware connection of all devices",
+            "By using a parallel priority manager",
+            "By assigning every device to a separate DMA controller"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which transmission mode allows data to be sent and received in both directions simultaneously?",
+        "options": [
+            "Simplex",
+            "Half-duplex",
+            "Full-duplex",
+            "Strobe method"
+        ],
+        "answer": 2
+    }
+]

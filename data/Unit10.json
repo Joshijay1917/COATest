@@ -1,0 +1,152 @@
+[
+    {
+        "q": "In signed-magnitude addition, if the signs of A and B are identical, which operation is performed on the magnitudes?",
+        "options": [
+            "Subtraction",
+            "Addition",
+            "Comparison",
+            "Complementing"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "During signed-magnitude subtraction, a '0' in the carry flip-flop E after adding A to the 2's complement of B indicates:",
+        "options": [
+            "A > B",
+            "A = B",
+            "A < B",
+            "Overflow occurred"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Which hardware component is used to determine if the signs of two signed-magnitude numbers are identical or different?",
+        "options": [
+            "AND gate",
+            "OR gate",
+            "EX-OR gate",
+            "NAND gate"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "What is the result of adding two signed-2's complement numbers in a standard computer system?",
+        "options": [
+            "Always a positive magnitude",
+            "Requires sign comparison first",
+            "Direct binary addition of all bits including sign",
+            "Must use Reverse Polish Notation"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In the Booth Multiplication Algorithm, what operation is performed when the multiplier bits Qn and Qn+1 are '01'?",
+        "options": [
+            "Subtract multiplicand from AC",
+            "Add multiplicand to AC",
+            "Only arithmetic shift right",
+            "No change to AC"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which type of shift is specifically used in the Booth Multiplication Algorithm to preserve the sign bit?",
+        "options": [
+            "Logical shift right",
+            "Circular shift left",
+            "Arithmetic shift right (ashr)",
+            "Logical shift left"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "During the Restoring Division Algorithm, if the carry bit E is '0' after subtraction, what must be done to the register A?",
+        "options": [
+            "Shift it left again",
+            "Set Qn to 1",
+            "Restore A by adding the divisor B",
+            "Clear register A"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Where are the final quotient and remainder stored after a division operation is completed?",
+        "options": [
+            "Quotient in A, Remainder in B",
+            "Quotient in Q, Remainder in A",
+            "Quotient in BR, Remainder in QR",
+            "Quotient in AC, Remainder in Q"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "A floating-point number is considered 'normalized' when:",
+        "options": [
+            "The exponent is zero",
+            "The mantissa is all ones",
+            "The most significant digit of the mantissa is nonzero",
+            "The radix is 2"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "What is the first step in the algorithm for adding or subtracting two floating-point numbers?",
+        "options": [
+            "Align the mantissas",
+            "Check for zeros",
+            "Add the exponents",
+            "Normalize the result"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "To align the mantissas of two floating-point numbers, the mantissa with the ________ exponent is shifted to the ________.",
+        "options": [
+            "Smaller, Left",
+            "Larger, Right",
+            "Smaller, Right",
+            "Larger, Left"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "When multiplying two floating-point numbers, what is the required operation for the exponents?",
+        "options": [
+            "Exponents are multiplied",
+            "Exponents are subtracted",
+            "Exponents are added",
+            "Exponents remain unchanged"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In floating-point division, an error occurs and the operation terminates if:",
+        "options": [
+            "The dividend is zero",
+            "The divisor is zero",
+            "The exponents are equal",
+            "The mantissa is normalized"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "How is the sign of the product determined in floating-point multiplication?",
+        "options": [
+            "As = Qs AND Bs",
+            "As = Qs OR Bs",
+            "As = Qs XOR Bs",
+            "As is always positive"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In the signed-magnitude addition flowchart, what does the AVF flip-flop represent?",
+        "options": [
+            "Absolute Value Flag",
+            "Add-overflow flip-flop",
+            "Arithmetic Vector Function",
+            "Auxiliary Variable Flag"
+        ],
+        "answer": 1
+    }
+]

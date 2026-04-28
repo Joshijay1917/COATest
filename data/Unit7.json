@@ -1,0 +1,152 @@
+[
+    {
+        "q": "Which taxonomy of computer architecture is based on the number of concurrent instruction and data streams?",
+        "options": [
+            "Von Neumann's architecture",
+            "Flynn's taxonomy",
+            "Harvard architecture",
+            "Amdahl's law"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "In Flynn's classification, what does SIMD stand for?",
+        "options": [
+            "Single Instruction stream, Multiple Data stream",
+            "Single Information stream, Multiple Data stream",
+            "Shared Instruction stream, Multiple Data stream",
+            "Sequential Instruction stream, Multiple Data stream"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "Which type of computer organization is described as having a single control unit and single processing unit executing instructions sequentially?",
+        "options": [
+            "MIMD",
+            "MISD",
+            "SIMD",
+            "SISD"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "Parallel processing is primarily used to increase which of the following?",
+        "options": [
+            "Storage capacity",
+            "Instruction length",
+            "Throughput and computational speed",
+            "Memory address space"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In a four-segment instruction pipeline, which segment is responsible for decoding the instruction and calculating the effective address?",
+        "options": [
+            "FI",
+            "DA",
+            "FO",
+            "EX"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "What is the result of a branch instruction in a pipeline that causes a delay in execution?",
+        "options": [
+            "Data dependency",
+            "Resource conflict",
+            "Pipeline stall",
+            "Normalization"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Which pipeline hazard occurs when two instructions require access to memory at the same time?",
+        "options": [
+            "Data dependency conflict",
+            "Branch difficulty",
+            "Resource conflict",
+            "Normalization conflict"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "A 'Delayed Load' strategy, often involving a 'no-op' instruction, is used to resolve which type of conflict?",
+        "options": [
+            "Resource conflict",
+            "Data dependency conflict",
+            "Branch difficulty",
+            "Normalization difficulty"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which RISC pipeline segment is responsible for performing the ALU operation?",
+        "options": [
+            "I (Instruction fetch)",
+            "A (ALU operation)",
+            "E (Execute instruction)",
+            "FO (Fetch operand)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "The sub-operations in a floating-point arithmetic pipeline typically follow which order?",
+        "options": [
+            "Normalize, Add, Align, Compare",
+            "Compare exponents, Align mantissas, Add/Subtract mantissas, Normalize",
+            "Align, Compare, Normalize, Add",
+            "Add, Subtract, Normalize, Align"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "What is the mathematical formula for Speedup (S) in a k-segment pipeline for n processes?",
+        "options": [
+            "S = k * n",
+            "S = (k * n) / (k + n - 1)",
+            "S = (k + n - 1) / (k * n)",
+            "S = k + (n - 1)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which type of processor is an auxiliary machine attached to a general-purpose computer to improve numerical computation performance?",
+        "options": [
+            "SIMD array processor",
+            "Attached array processor",
+            "Vector processor",
+            "Scalar processor"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "In vector processing, the operation C(1:100) = A(1:100) + B(1:100) replaces which of the following?",
+        "options": [
+            "A single scalar addition",
+            "A loop of 100 scalar additions",
+            "A matrix multiplication",
+            "A hardware interrupt"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which application is explicitly mentioned as a use case for vector processing?",
+        "options": [
+            "Word processing",
+            "Web browsing",
+            "Weather forecasting",
+            "File system management"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In an SIMD Array Processor, which unit is responsible for decoding instructions and determining execution for all processing elements?",
+        "options": [
+            "Processing Element (PE)",
+            "Local Memory (M)",
+            "Master Control Unit",
+            "Main Memory"
+        ],
+        "answer": 2
+    }
+]

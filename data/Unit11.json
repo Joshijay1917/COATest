@@ -1,0 +1,252 @@
+[
+    {
+        "q": "What is a multiprocessor system?",
+        "options": [
+            "Single CPU system",
+            "Multiple CPUs connected with memory and I/O",
+            "Only memory system",
+            "Only I/O system"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which of the following is an advantage of multiprocessor?",
+        "options": [
+            "Low performance",
+            "Single user",
+            "High throughput",
+            "No multitasking"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Tightly coupled system uses:",
+        "options": [
+            "Distributed memory",
+            "Shared memory",
+            "No memory",
+            "External memory"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Loosely coupled system is also called:",
+        "options": [
+            "Shared memory",
+            "Central memory",
+            "Distributed memory",
+            "Cache memory"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Communication in loosely coupled system is done by:",
+        "options": [
+            "Shared memory",
+            "Registers",
+            "Message passing",
+            "Cache"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Which has higher data exchange overhead?",
+        "options": [
+            "Tightly coupled",
+            "Loosely coupled",
+            "Both same",
+            "None"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Which interconnection allows only one transfer at a time?",
+        "options": [
+            "Crossbar",
+            "Multiport",
+            "Bus",
+            "Hypercube"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Multiport memory provides:",
+        "options": [
+            "Single path",
+            "Multiple paths",
+            "No path",
+            "Random path"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Crossbar switch allows:",
+        "options": [
+            "Single transfer",
+            "Parallel transfer",
+            "No transfer",
+            "Sequential only"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Hypercube system has processors equal to:",
+        "options": [
+            "n",
+            "2n",
+            "2^n",
+            "n^2"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "In hypercube, neighbors differ by:",
+        "options": [
+            "All bits",
+            "Two bits",
+            "One bit",
+            "No bits"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Daisy chain arbitration gives priority based on:",
+        "options": [
+            "Time",
+            "Position",
+            "Random",
+            "Speed"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Parallel arbitration uses:",
+        "options": [
+            "Decoder only",
+            "Encoder only",
+            "Encoder + Decoder",
+            "None"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Time slice arbitration uses:",
+        "options": [
+            "Random",
+            "Round robin",
+            "Priority",
+            "FIFO"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Semaphore is used for:",
+        "options": [
+            "Memory allocation",
+            "Synchronization",
+            "I/O",
+            "Storage"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Critical section means:",
+        "options": [
+            "Safe code",
+            "Parallel code",
+            "Shared resource code",
+            "Dead code"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Cache coherence problem occurs due to:",
+        "options": [
+            "Single CPU",
+            "Multiple caches",
+            "No memory",
+            "I/O"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Snoopy cache controller:",
+        "options": [
+            "Ignores bus",
+            "Monitors bus",
+            "Deletes memory",
+            "Adds CPU"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Message queue is used in:",
+        "options": [
+            "Tightly coupled",
+            "Loosely coupled",
+            "Both",
+            "None"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Multiport memory disadvantage:",
+        "options": [
+            "Cheap",
+            "Slow",
+            "Expensive",
+            "No control"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "Crossbar switch uses:",
+        "options": [
+            "Single switch",
+            "Multiple switches",
+            "No switches",
+            "Bus"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "IPC stands for:",
+        "options": [
+            "Inter Process Communication",
+            "Internal Process Control",
+            "Input Process Control",
+            "None"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "Mutual exclusion ensures:",
+        "options": [
+            "All run together",
+            "Only one process in critical section",
+            "No execution",
+            "Parallel execution"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Shared memory is used in:",
+        "options": [
+            "Loosely coupled",
+            "Tightly coupled",
+            "Both",
+            "None"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "Polling belongs to:",
+        "options": [
+            "Static arbitration",
+            "Dynamic arbitration",
+            "No arbitration",
+            "Memory"
+        ],
+        "answer": 1
+    }
+]
