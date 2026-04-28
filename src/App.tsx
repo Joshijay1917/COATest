@@ -1,6 +1,6 @@
 import { useState, useCallback, useMemo } from 'react'
 
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import './App.css'
 
 // Import all unit data
