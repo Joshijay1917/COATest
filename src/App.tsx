@@ -25,7 +25,29 @@ interface UnitInfo {
   data: Question[]
 }
 
-type Screen = 'landing' | 'quiz' | 'results'
+type Screen = 'landing' | 'quiz' | 'results' | 'material'
+
+interface MaterialFile {
+  name: string
+  file: string
+}
+
+const MATERIALS: MaterialFile[] = [
+  { name: 'UNIT 1 Part 1', file: 'UNIT 1 Part 1.pdf' },
+  { name: 'UNIT 1 Part 2', file: 'UNIT 1 Part 2.pdf' },
+  { name: 'COA Unit 2', file: 'COA_Unit-2.pdf' },
+  { name: 'COA Unit 3', file: 'COA_Unit-3.pdf' },
+  { name: 'COA Unit 4', file: 'COA_Unit-4.pptx' },
+  { name: 'COA Unit 5', file: 'COA_Unit-5.pdf' },
+  { name: 'Unit 6 Part 1', file: 'Unit - 6 Part 1.pdf' },
+  { name: 'Unit 6 Part 2', file: 'Unit - 6 Part - 2.pdf' },
+  { name: 'Unit 7 Part 1', file: 'unit - 7 part 1.pdf' },
+  { name: 'Unit 7 Part 2', file: 'unit - 7 class Part - 2.pdf' },
+  { name: 'Unit 8', file: 'Unit-8 class.pdf' },
+  { name: 'Unit 9', file: 'unit - 9 class.pdf' },
+  { name: 'COA Unit 10', file: 'COA_Unit-10.pdf' },
+  { name: 'Unit 11', file: 'unit 11.pdf' },
+]
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 
@@ -177,6 +199,25 @@ function App() {
             </div>
           </div>
 
+          {/* <a
+            className="pdf-download-bar"
+            id="pdf-download"
+            href="/coa_mid2_qb.pdf"
+            download="COA_MID2_QB.pdf"
+          >
+            <span className="pdf-icon">📄</span>
+            <span className="pdf-label">PDF COA from unknown source (200 MCQ)</span>
+            <span className="pdf-action">↓ Download</span>
+          </a> */}
+
+          <button
+            className="material-btn"
+            id="material-btn"
+            onClick={() => setScreen('material')}
+          >
+            📚 Study Material
+          </button>
+
           <div className="topics-grid">
             {UNITS.map((unit) => (
               <div className="topic-card" key={unit.id}>
@@ -188,9 +229,11 @@ function App() {
             ))}
           </div>
 
-          <button className="begin-btn" id="begin-btn" onClick={handleBegin}>
-            Begin →
-          </button>
+          <div className="landing-actions">
+            <button className="begin-btn" id="begin-btn" onClick={handleBegin}>
+              Begin Quiz →
+            </button>
+          </div>
         </div>
       )}
 
@@ -308,6 +351,40 @@ function App() {
           >
             Restart →
           </button>
+        </div>
+      )}
+
+      {/* ===== MATERIAL SCREEN ===== */}
+      {screen === 'material' && (
+        <div className="material-page">
+          <button
+            className="material-back-btn"
+            id="material-back-btn"
+            onClick={() => setScreen('landing')}
+          >
+            ← Back
+          </button>
+
+          <h2 className="material-heading">Study Material</h2>
+          <p className="material-subtext">{MATERIALS.length} files available for download</p>
+
+          <div className="material-grid">
+            {MATERIALS.map((mat, i) => {
+              const ext = mat.file.split('.').pop()?.toUpperCase() || ''
+              return (
+                <a
+                  key={i}
+                  className="material-card"
+                  href={`/material/${encodeURIComponent(mat.file)}`}
+                  download={mat.file}
+                >
+                  <span className={`material-ext ${ext === 'PPTX' ? 'ext-pptx' : 'ext-pdf'}`}>{ext}</span>
+                  <span className="material-name">{mat.name}</span>
+                  <span className="material-dl">↓</span>
+                </a>
+              )
+            })}
+          </div>
         </div>
       )}
     </div>
