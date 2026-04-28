@@ -1,4 +1,6 @@
 import { useState, useCallback, useMemo } from 'react'
+
+import { Analytics } from "@vercel/analytics/next"
 import './App.css'
 
 // Import all unit data
@@ -140,6 +142,7 @@ function App() {
 
   return (
     <div className="quiz-app">
+      <Analytics />
       {/* Header */}
       <header className="quiz-header">
         <div className="quiz-badge">· COA · MID 2 ·</div>
